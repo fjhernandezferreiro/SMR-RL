@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Parte 2: Rastrear una ruta a un servidor remoto mediante la herramienta Tracert | Práctica de laboratorio: PING y TRACERT </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Francisco Javier Hernández Ferreiro" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Práctica de laboratorio: PING y TRACERT</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Práctica de laboratorio: PING y TRACERT</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="no-ch">Parte 1: Probar la conectividad de red mediante el comando ping</a></li>
+   <li id="active"><a href="parte_2_rastrear_una_ruta_a_un_servidor_remoto_mediante_la_herramienta_tracert.html" class="active no-ch">Parte 2: Rastrear una ruta a un servidor remoto mediante la herramienta Tracert</a></li>
+   <li><a href="parte_3_rastrear_una_ruta_a_un_servidor_remoto_mediante_herramientas_de_software_y_herramientas_basadas_en_web.html" class="no-ch">Parte 3: Rastrear una ruta a un servidor remoto mediante herramientas de software y herramientas basadas en Web</a></li>
+   <li><a href="parte_4_usar_visualroute_lite_y_comparar_resultados.html" class="no-ch">Parte 4: Usar VisualRoute Lite y comparar resultados</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="parte_3_rastrear_una_ruta_a_un_servidor_remoto_mediante_herramientas_de_software_y_herramientas_basadas_en_web.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Parte 2: Rastrear una ruta a un servidor remoto mediante la herramienta Tracert</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id4">
+<div class="iDevice emphasis0" >
+<div id="ta4_112_2" class="block iDevice_content">
+<div class="exe-text"><h3><span>Paso </span><span>1: Determinar qué ruta a través del tráfico de Internet llega al servidor remoto</span></h3>
+<p><span>Ahora que se verificó la posibilidad de conexión básica utilizando la herramienta ping, resulta útil observar con mayor detalle cada segmento de red que se atraviesa. Para ello, se utilizará la herramienta tracert.<br style="clear: both;" /></span></p>
+<p><span>&gt;&gt; En el símbolo del sistema, escriba:</span></p>
+<p style="padding-left: 30px;"><em><strong> tracert <a href="http://www.cisco.com">www.cisco.com</a></strong></em></p>
+<p><em></em><span>&gt;&gt; Guarde el resultado de tracert en un archivo de texto de la siguiente manera:</span></p>
+<p style="padding-left: 30px;"><span>1) Haga clic con el botón secundario en la barra de </span><span>título de la ventana del símbolo del sistema </span><span>y seleccione </span><span>Editar</span><span> &gt; </span><span>Seleccionar todo</span><span>. </span></p>
+<p style="padding-left: 30px;"><span>2) Vuelva a hacer clic con el botón secundario en la barra de título del símbolo del sistema y seleccione </span><span>Editar</span><span> &gt; </span><span>Copiar</span><span>. </span></p>
+<p style="padding-left: 30px;"><span>3) Abra el programa </span><span>Bloc de notas</span><span> de </span><span>Windows</span><span>: ícono </span><span>Inicio de Windows</span><span> &gt; </span><span>Todos los programas</span><span> &gt; </span><span>Accesorios</span><span> &gt; </span><span>Bloc de notas</span><span>.</span></p>
+<p style="padding-left: 30px;"><span>4) Para pegar el resultado en el bloc de notas, seleccione </span><span>Editar</span><span> &gt; </span><span>Pegar</span><span>. </span></p>
+<p style="padding-left: 30px;"><span>5) Seleccione </span><span>Archivo</span><span>&gt; </span><span>Guardar como</span><span>y guarde el archivo del bloc de notas en el escritorio con el </span><span>nombre </span><span>tracert1.tx</span><span>t</span><span>. </span></p>
+<p><span>&gt;&gt; Ejecute </span><strong>tracert</strong><span> para cada sitio Web de destino y guarde el resultado en archivos numerados </span><span>secuencialmente.</span></p>
+<p style="padding-left: 30px;"><em><strong>C:\ &gt; tracert <a href="http://www.afrinic.net">www.afrinic.net </a></strong></em></p>
+<p style="padding-left: 30px;"><em><strong>C:\ &gt; tracert <a href="http://www.lacnic.net">www.lacnic.net</a></strong></em></p>
+<p><span>Las rutas rastreadas pueden atravesar </span><span>muchos saltos y distintos proveedores de servicios de Internet </span><span>(ISP), según el tamaño del ISP y la ubicación de los hosts de origen y destino. Cada “salto” representa </span><span>un router. </span></p>
+<p><span>Un router es un tipo especializado de computadora que se utiliza para dirigir </span><span>el tráfico a través </span><span>de Internet. Imagine que realiza un viaje en automóvil por varios países atravesando muchas carreteras. </span><span>En distintos puntos del viaje, se encuentra con una bifurcación en el camino, donde debe optar entre </span><span>varias carreteras diferentes. A</span><span>hora, imagine además que hay un dispositivo en cada bifurcación del </span><span>camino que lo orienta para tomar la carretera correcta hacia el destino final. Esto es lo que hace el router </span><span>con los paquetes en una red.</span></p>
+<p><span>Dado que las PC se comunican mediante números, en </span><span>lugar de palabras, los routers se identifican de </span><span>manera mediante direcciones IP (números con el formato x.x.x.x) exclusivas. </span></p>
+<p><span>La herramienta </span><span><strong>tracert</strong> </span><span>muestra qué ruta toma un paquete de información a través de la red para llegar a su destino final. La </span><span>herram</span><span>ienta </span><strong>tracert</strong><span> también le da una idea de la velocidad con la que avanza el tráfico en cada segmento </span><span>de la red. Se envían tres paquetes a cada router en el trayecto, y el tiempo de retorno se mide en </span><span>milisegundos. </span></p>
+<p><span>Ahora utilice esta información para analizar</span><span> los demás resultados de </span><strong>tracert</strong> (recuerde que el primer salto es el <em>router doméstico</em> y, el segundo, el del <em>ISP</em>).<span></span></p>
+<p>Existe una herramienta de Internet que se conoce como<strong><span> “whois”. </span></strong>La herramienta whois nos permite determinar a quién pertenece un nombre de dominio.</p>
+<p>En <strong><em>http://whois.domaintools.com/</em><span>, </span></strong>encontrará una herramienta whois basada en la Web.</p>
+<div class="exe-fx exe-tabs">
+<h2>Tarea 2.1</h2>
+<p>Incluye el resultado de los distintos resultados de tracer.</p>
+<h2>Tarea 2.2</h2>
+<p>¿Cuál es la dirección IP del router doméstico?</p>
+<h2>Tarea 2.3</h2>
+<p>De un tracert que tenga al menos 5 saltos incluye la información del WHOIS y traza la ruta completa en un mapa físico.</p>
+</div>
+<p><span>Completa las tareas en un documento de texto (doc, pdf) indicando para cada ejercicio su apartado correspondiente. Súbelo al Aula Virtual.</span></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="parte_3_rastrear_una_ruta_a_un_servidor_remoto_mediante_herramientas_de_software_y_herramientas_basadas_en_web.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Introducción | Práctica de laboratorio: PING y TRACERT </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Francisco Javier Hernández Ferreiro" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Práctica de laboratorio: PING y TRACERT</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Práctica de laboratorio: PING y TRACERT</a></li>
+   <li id="active"><a href="introduccin.html" class="active no-ch">Introducción</a></li>
+   <li><a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="no-ch">Parte 1: Probar la conectividad de red mediante el comando ping</a></li>
+   <li><a href="parte_2_rastrear_una_ruta_a_un_servidor_remoto_mediante_la_herramienta_tracert.html" class="no-ch">Parte 2: Rastrear una ruta a un servidor remoto mediante la herramienta Tracert</a></li>
+   <li><a href="parte_3_rastrear_una_ruta_a_un_servidor_remoto_mediante_herramientas_de_software_y_herramientas_basadas_en_web.html" class="no-ch">Parte 3: Rastrear una ruta a un servidor remoto mediante herramientas de software y herramientas basadas en Web</a></li>
+   <li><a href="parte_4_usar_visualroute_lite_y_comparar_resultados.html" class="no-ch">Parte 4: Usar VisualRoute Lite y comparar resultados</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Introducción</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id0">
+<div class="iDevice emphasis0" >
+<div id="ta0_108_2" class="block iDevice_content">
+<div class="exe-text"><h3><span>Objetivos</span></h3>
+<p><span><strong>Parte 1:</strong> Probar la conectividad de red mediante el comando ping </span></p>
+<p><span><strong>Parte 2:</strong> Rastrear una ruta a un servidor remoto </span><span>mediante la herramienta tracert de Windows</span></p>
+<p><span><strong>Parte 3:</strong> Rastrear una ruta a un servidor remoto mediante herramientas de software y herramientas </span><span>basadas en Web</span></p>
+<p><span><strong>Parte 4:</strong> Comparar los resultados de traceroute</span></p>
+<h2><span>Información básica </span></h2>
+<p><span>El software de rastreo de rutas es </span><span>una utilidad que enumera las redes que atraviesan los datos desde el </span><span>dispositivo final del usuario que los origina hasta una red de destino remoto.</span></p>
+<p><span>Esta herramienta de red generalmente se ejecuta en la línea de comandos como:</span></p>
+<pre><span style="font-size: 12pt;">tracert <nombre de="" la="" red="" destino="" o="" direcci="" n="" del="" terminal=""> (sistemas Microsoft Windows)</nombre></span></pre>
+<p><span>o </span></p>
+<pre><span style="font-size: 12pt;">traceroute <nombre de="" la="" red="" destino="" o="" direcci="" n="" del="" terminal=""> (Unix y sistemas similares)</nombre></span></pre>
+<p><span>Las utilidades de rastreo de rutas permiten a un usuario determinar la trayectoria o las rutas, a</span><span>sí como la </span><span>demora a través de una red IP. <br style="clear: both;" /></span></p>
+<p><span>Existen varias herramientas para llevar a cabo esta función.</span><span>La herramienta </span><span>traceroute</span><span> (o </span><span>tracert</span><span>) se usa generalmente para resolver problemas de redes. Al mostrar </span><span>una lista de los routers atravesados, permite al usuario identificar la ruta tomada para llegar a un destino </span><span>determinado de la red o a través de internetworks. </span></p>
+<p><span>Cada router representa un punto en el que una red se </span><span>conecta a otra y a través del cual se envió el paquete de datos. </span><span>La cantidad de routers se conoce como la </span><span>cantidad de “saltos” que viajaron los datos desde el origen hasta el destino.<br style="clear: both;" /></span><span></span></p>
+<p><span>La lista que se muestra puede ayudar a identificar problemas de flujo de datos cuando se intenta acceder </span><span>a un servicio como, por ejemplo, un sitio Web. <br style="clear: both;" /></span><span></span></p>
+<p><span>Dos rutas de rastreo </span><span>entre el mismo origen y destino establecidas en diferentes momentos pueden producir </span><span>distintos resultados. Esto se debe a la naturaleza “en malla” de las redes interconectadas que componen </span><span>Internet y a la capacidad de los protocolos de Internet para selecc</span><span>ionar distintas rutas por las cuales enviar </span><span>paquetes.<br style="clear: both;" /></span><span></span></p>
+<p><span>Por lo general, el sistema operativo del dispositivo final tiene herramientas de rastreo de rutas basadas en la </span><span>línea de comandos integradas.</span></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Parte 1: Probar la conectividad de red mediante el comando ping | Práctica de laboratorio: PING y TRACERT </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Francisco Javier Hernández Ferreiro" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Práctica de laboratorio: PING y TRACERT</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Práctica de laboratorio: PING y TRACERT</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li id="active"><a href="parte_1_probar_la_conectividad_de_red_mediante_el_comando_ping.html" class="active no-ch">Parte 1: Probar la conectividad de red mediante el comando ping</a></li>
+   <li><a href="parte_2_rastrear_una_ruta_a_un_servidor_remoto_mediante_la_herramienta_tracert.html" class="no-ch">Parte 2: Rastrear una ruta a un servidor remoto mediante la herramienta Tracert</a></li>
+   <li><a href="parte_3_rastrear_una_ruta_a_un_servidor_remoto_mediante_herramientas_de_software_y_herramientas_basadas_en_web.html" class="no-ch">Parte 3: Rastrear una ruta a un servidor remoto mediante herramientas de software y herramientas basadas en Web</a></li>
+   <li><a href="parte_4_usar_visualroute_lite_y_comparar_resultados.html" class="no-ch">Parte 4: Usar VisualRoute Lite y comparar resultados</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="introduccin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="parte_2_rastrear_una_ruta_a_un_servidor_remoto_mediante_la_herramienta_tracert.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Parte 1: Probar la conectividad de red mediante el comando ping</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id1">
+<div class="iDevice emphasis0" >
+<div id="ta1_109_2" class="block iDevice_content">
+<div class="exe-text"><h3><span>Paso </span><span>1: Determinar si hay posibilidad de conexión al servidor remoto.</span></h3>
+<p><strong>Para rastrear la ruta hacia una red distante, el PC que se utiliza debe tener una conexión a Internet en funcionamiento.</strong></p>
+<p><span>a. La primera herramienta que utilizaremos es <em><strong>ping</strong></em>. Ping es una herramienta que se utiliza para probar si hay </span><span>posibilidad de conexión a un host. Se envían paquetes de información al host remoto con instrucciones de </span><span>que responda. El PC local mide si se recibe una respuesta para cada paquete y cuánto tiempo tardan esos </span><span>paquetes en atravesar la red. El nombre “ping” proviene de la tecnología de sonar activo en la cual un pulso </span><span>de sonido se envía por debajo del agua y rebota en tierra o en otras embarcaciones.</span></p>
+<p><span>b. En el PC, haga clic en el ícono </span><span>Inicio de Windows</span><span>, escriba </span><strong><em>cmd</em></strong><span> en el cuadro de diálogo "</span><span>Buscar </span><span>programas y archivos"</span><span> y, a continuación, presione Entrar.</span></p>
+<p><span>c. En el símbolo del sistema, escriba: </span><strong><em>ping <a href="http://www.cisco.com">www.cisco.com</a></em></strong></p>
+<p>d. En la primera línea de resultados, aparece el <strong>nombre de dominio</strong> completamente calificado (FQDN). A continuación, aparece la <strong>dirección IP</strong>.</p>
+<p>e. El resultado muestra cuántos pings se enviaron y cómo respondió cada ping, si hubo pérdida de paquetes e información de lo que En los paquetes tardan en milisegundos. Un milisegundo es 1/1000 de un segundo. El streaming video y los juegos en línea son dos aplicaciones que se ven afectadas cuando hay pérdida de paquetes o una conexión de red lenta. Es posible determinar la velocidad de una conexión a Internet de manera más precisa al enviar 100 pings, en lugar de los cuatro predeterminados. Para ello, se debe usar la opción -n (ping -n 100 <a href="http://www.cisco.com">www.cisco.com</a>)</p>
+<p>f. Ahora, <strong>haga ping</strong> a los sitios Web de registros regionales de Internet (RIR) en distintas partes del mundo:</p>
+<dl class="exe-dl">
+<dt>Africa</dt>
+<dd>
+<p>C:\ &gt; ping www.afrinic.net</p>
+</dd>
+</dl>
+<dl class="exe-dl">
+<dt>Australia</dt>
+<dd>
+<p><span>C:\ &gt; </span><span>ping </span><span>www.apnic.net </span></p>
+</dd>
+</dl>
+<dl class="exe-dl">
+<dt>Europa</dt>
+<dd>
+<p><span>C:\ &gt; </span><span>ping www.ripe.net</span><span></span></p>
+</dd>
+<dt>América del Sur</dt>
+<dd>
+<p><span>C:\ &gt; </span><span>ping lacnic.net<br style="clear: both;" /></span><span></span></p>
+</dd>
+</dl>
+<div class="exe-fx exe-tabs">
+<h2>Tarea 1.1</h2>
+<p>Adjunta captura de pantalla de los resúmenes (parte final - Estadísticas de PING) de los ping a todos los sitios que se detallan. Además, incluye a www.telefonica.es.</p>
+<h2>Tarea 1.2</h2>
+<p>¿Cuál tarda más? ¿Cuál va más rápido?</p>
+<h2>Tarea 1.3</h2>
+<p>¿Hay alguno inaccesible? ¿Por qué piensas que es?</p>
+</div>
+<p>Completa las tareas en un documento de texto (doc, pdf) indicando para cada ejercicio su apartado correspondiente. Súbelo al Aula Virtual.</p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="introduccin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="parte_2_rastrear_una_ruta_a_un_servidor_remoto_mediante_la_herramienta_tracert.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>
