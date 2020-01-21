@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>5.5.3.- Routers (enrutadores). | REDES DE ÁREA LOCAL. Consideraciones. Interconexión. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Francisco Javier Hernández Ferreiro" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">REDES DE ÁREA LOCAL. Consideraciones. Interconexión.</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">U.T. 5.- Redes de área local. Consideraciones. Interconexión.</a></li>
+   <li><a href="51_consideraciones_previas_necesidades.html" class="no-ch">5.1.- Consideraciones previas. Necesidades.</a></li>
+   <li><a href="52_consideraciones_previas_requisitos_previos.html" class="no-ch">5.2.- Consideraciones previas. Requisitos previos.</a></li>
+   <li><a href="53_aplicaciones_y_seguridad.html" class="no-ch">5.3.- Aplicaciones y seguridad.</a></li>
+   <li><a href="54_normativas_protocolos_estndares.html" class="no-ch">5.4.- Normativas. Protocolos. Estándares.</a></li>
+   <li class="current-page-parent"><a href="55_elementos_hw_y_sw_de_la_red.html" class="current-page-parent daddy">5.5.- Elementos HW y SW de la red.</a>
+   <ul>
+      <li><a href="551_repetidores_y_hubs_concentradores.html" class="no-ch">5.5.1.- Repetidores y Hubs (concentradores).</a></li>
+      <li><a href="552_bridges_puentes_y_switches_conmutadores.html" class="daddy">5.5.2.- Bridges (puentes) y switches (conmutadores).</a>
+      <ul class="other-section">
+         <li><a href="5521_tecnologas_de_conmutacin.html" class="no-ch">5.5.2.1.- Tecnologías de conmutación.</a></li>
+      </ul>
+      </li>
+      <li id="active"><a href="553_routers_enrutadores.html" class="active daddy">5.5.3.- Routers (enrutadores).</a>
+      <ul>
+         <li><a href="5531_tipos_de_encaminamiento.html" class="no-ch">5.5.3.1.- Tipos de encaminamiento.</a></li>
+      </ul>
+      </li>
+      <li><a href="554_otros_dispositivos_de_interconexin.html" class="no-ch">5.5.4.- Otros dispositivos de interconexión.</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="5521_tecnologas_de_conmutacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5531_tipos_de_encaminamiento.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">5.5.3.- Routers (enrutadores).</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id15">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_generic.gif)"><h1 class="iDeviceTitle"> </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta15_122_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 18pt; background-color: #ccffcc;"><u><b>ENRUTADORES (ROUTERS)</b></u></span></p>
+<ul>
+<li><span style="font-size: 18pt;"><span style="background-color: #ffff99;">Interconectan</span> LAN (local) y WAN (pública) usando <span style="background-color: #ffff99;">protocolos de nivel de red</span> (IPv4, IPv6...). Pueden usar o no tecnologías como NAT/PAT.<br style="clear: both;" /><br style="clear: both;" /></span></li>
+<li><span style="font-size: 18pt;">Si el paquete que llega a un <em>router</em> tiene como <span style="background-color: #ffff99;">red de destino</span> la de la interfaz, se descarta (no se encamina).<br style="clear: both;" /><br style="clear: both;" /></span></li>
+<li><span style="font-size: 18pt;"><span style="background-color: #ffff99;">No</span> retransmite <span style="background-color: #ffff99;">BROADCAST</span> de red.<br style="clear: both;" /><br style="clear: both;" /></span></li>
+<li><span style="font-size: 18pt;">Los <em>routers</em> usan las “<strong><span style="background-color: #ffff99;">tablas de encaminamiento</span></strong>” para decidir cuál es la mejor ruta por la que debe ir el paquete.<br style="clear: both;" /><br style="clear: both;" /></span></li>
+<li><span style="font-size: 18pt;">Se cuenta el <span style="background-color: #ffff99;">número de saltos</span>,  o número de <em>routers</em> que tendrá que pasar el paquete hasta llegar al destino (TTL y/o Hop Limit).</span></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GalleryIdevice em_iDevice" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Galería de imágenes</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<ul class="exeImageGallery" id="exeImageGallery16">
+<li><a title="" href="router1.png"><img alt="" width="128" height="128" src="router1Thumbnail.png" /><span class="tit"></span></a></li>
+</ul>
+<script type="text/javascript">$exe.imageGallery.init("exeImageGallery16");</script>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="5521_tecnologas_de_conmutacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5531_tipos_de_encaminamiento.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_standardwhite_js.js"></script></body></html>
