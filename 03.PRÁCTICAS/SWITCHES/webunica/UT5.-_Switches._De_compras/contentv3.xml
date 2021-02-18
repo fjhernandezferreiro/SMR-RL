@@ -83,11 +83,11 @@
    <unicode value="Unidad"></unicode>
   </list>
   <string role="key" value="_name"></string>
-  <unicode value="UT5.-_Switches._De_compras."></unicode>
+  <unicode value="UT5.-_Switches._De_compras"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
   <int value="5"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="1"></int>
+  <int value="2"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -171,13 +171,13 @@
            <string role="key" value="anchors_linked_from_fields"></string>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Busca&lt;/strong&gt; conmutadores (switches) en webs de compra de &lt;/span&gt;&lt;span&gt;dispositivos (te doy algunas como ejemplo):&lt;/span&gt;&lt;/p&gt;
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Busca&lt;/strong&gt; conmutadores (&lt;strong&gt;&lt;em&gt;switches&lt;/em&gt;&lt;/strong&gt;) en &lt;strong&gt;&lt;em&gt;webs&lt;/em&gt;&lt;/strong&gt; de compra de &lt;/span&gt;&lt;span&gt;dispositivos (te doy algunas como ejemplo):&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span&gt;Amazon.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;PC Componentes.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;MediaMarkt.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Fnac.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Etc...&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;fs.com / tp-link / dlink / ...&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -303,15 +303,15 @@
            <string role="key" value="anchors_linked_from_fields"></string>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;Anota en formato &lt;strong&gt;tabla&lt;/strong&gt; (documento de texto) las &lt;/span&gt;&lt;span&gt;&lt;strong&gt;características&lt;/strong&gt; importantes de, al menos, 5 modelos distintos. &lt;/span&gt;&lt;/p&gt;
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;Anota en formato &lt;strong&gt;tabla&lt;/strong&gt; (documento ofimático de texto -odt, doc, docx, pdf...-) las &lt;/span&gt;&lt;span&gt;&lt;strong&gt;características&lt;/strong&gt; importantes de, al menos, 5 modelos distintos. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Puedes poner todas las que quieras, pero no se te olvide &lt;/span&gt;&lt;span&gt;incluir al menos...&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span&gt;Precio.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Número y tipo de entradas/salidas/interfaces.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Velocidad.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Número y tipo de puertos/entradas/salidas/interfaces.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Velocidad / Tasa de reenvío / Proceso...&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Protocolos soportados.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Alimentación (activo/pasivo).&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Etc...&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Alimentación (activo/pasivo). Doble fuente. Etc.&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Capa 2 / Capa 3 / Gestionable...&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -434,6 +434,8 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;Además de anotar en la &lt;/span&gt;&lt;span&gt;tabla&lt;/span&gt;&lt;span&gt;, las características &lt;/span&gt;&lt;span&gt;principales tienes que &lt;strong&gt;reflexionar&lt;/strong&gt; sobre...&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -463,7 +465,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="3"></reference>
           </dictionary>
          </instance>
         </list>
@@ -562,6 +564,8 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;T&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;strong&gt;nomenclatura técnic&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;a&lt;/strong&gt; &lt;/span&gt;&lt;span&gt;q&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;h&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;v&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;o &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;o &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;n &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;w&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;o &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;n &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;→ &lt;/span&gt;&lt;span&gt;E&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;n &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;é&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;n &lt;/span&gt;&lt;strong&gt;glosario &lt;/strong&gt;&lt;span&gt;y &lt;/span&gt;&lt;strong&gt;añádelo &lt;/strong&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;é&lt;/span&gt;&lt;span&gt;n &lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u &lt;/span&gt;&lt;strong&gt;document&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;o&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -587,7 +591,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="3"></reference>
           </dictionary>
          </instance>
         </list>
@@ -686,10 +690,13 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;E&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;g&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u &lt;/span&gt;&lt;strong&gt;documento &lt;/strong&gt;&lt;span&gt;q&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;y&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;strong&gt;tabla&lt;/strong&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;l &lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;á&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;strong&gt;diferencias entre hub/switc&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;h&lt;/strong&gt; &lt;/span&gt;&lt;span&gt;y &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;l &lt;/span&gt;&lt;strong&gt;glosario &lt;/strong&gt;&lt;span&gt;y &lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;ú&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;o &lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;l &lt;/span&gt;&lt;span&gt;A&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;V&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;→ &lt;/span&gt;&lt;span&gt;E&lt;/span&gt;&lt;span&gt;n &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;l &lt;/span&gt;&lt;span&gt;A&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;V&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;l &lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;á&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;o&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;strong&gt;compañeros &lt;/strong&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;a &lt;/span&gt;&lt;strong&gt;evaluar&lt;/strong&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;→ &lt;/span&gt;&lt;strong&gt;Revisa, corrige y valor&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;a&lt;/strong&gt; &lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;00&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;g&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;strong&gt;compañeros&lt;/strong&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;span&gt;→ &lt;/span&gt;&lt;strong&gt;Revisa, corrige y valor&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;a&lt;/strong&gt; &lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;00&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;l&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;n&lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;r&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;g&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;e &lt;/span&gt;&lt;span&gt;t&lt;/span&gt;&lt;span&gt;u&lt;/span&gt;&lt;span&gt;s &lt;/span&gt;&lt;strong&gt;compañeros&lt;/strong&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;→ Tu calificación es una combinación de las valoraciones emitidas (se valora que sean justas) y las recibidas.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -712,7 +719,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="3"></reference>
           </dictionary>
          </instance>
         </list>
@@ -2010,7 +2017,7 @@
   <string role="key" value="mxmlwidth"></string>
   <string value=""></string>
   <string role="key" value="release"></string>
-  <string value="2.5"></string>
+  <string value="2.5.1"></string>
   <string role="key" value="resources"></string>
   <dictionary></dictionary>
   <string role="key" value="root"></string>
